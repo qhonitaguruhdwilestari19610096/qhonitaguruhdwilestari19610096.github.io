@@ -2,356 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RoyalBag.id| Ecommerce Website Design</title>
+    <title>Progate</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <!--header-->
     <div class="header">
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/logo.png" width="125px">
-                </div>
-                <nav>
-                    <ul id="MenuItems">
-                        <li><a href="e-commerce.html">Home</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="account.html">Account</a></li>
-                    </ul>
-                </nav>
-                <i class="fa fa-shopping-bag"></i>
-                <i class="fa fa-bars"onclick="menutoggle()"></i>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-2">
-                <h1>Find and Get <br>A New Style Bag!</h1>
-                <p>Our products always follow the trend, strong, and fashionable <br> be used for women from teenagers to adults</p>
-                <a href="products.html"class="btn">Explore Now &#8594;</a>
-            </div>
-            <div class="col-2">
-                <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/ambassador.png">
-            </div>
+        <div class="header-logo">Progate</div>
+        <div class="header-list">
+            <ul>
+                <li>Tentang</li>
+                <li>Pelajaran Kami</li>
+                <li>Hubungi Kami</li>
+            </ul>
         </div>
     </div>
+    <!--main-->
+    <div class="main">
+        <div class="copy-container">
+            <h1>HELLO WORLD<span>.</span></h1>
+            <h2>Ayo belajar coding</h2>
+        </div>
+        <div class="contents">
+            <h3 class="section-title">Pelajaran</h3>
+            <div class="contents-item">
+                <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg">
+                <p>HTML & CSS</p>
+            </div>
+            <div class="contents-item">
+                <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg">
+                <p>PHP</p>
+            </div>
+            <div class="contents-item">
+                <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg">
+                <p>Ruby</p>
+            </div>
+            <div class="contents-item">
+                <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/swift.svg">
+                <p>Swift</p>
+            </div>
+        </div>
+        <div class="contact-form">
+            <h3 class="section-title">Hubungi Kami</h3>
+            <p>Email (Wajib Diisi)</p>
+            <!--Tambahkan tag<input>-->
+            <input type="text">
+            <p>Pesan (Wajib Diisi)</p>
+            <!--Tambahkan tag <textarea>-->
+            <textarea>
 
-    <!------featured Categories------->
-        <div class="categories">
-            <div class="small-container">
-                <div class="row">
-                <div class="col-3">
-                    <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/category-1.jpg">
-                </div>
-                <div class="col-3">
-                    <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/category-2.jpg">
-                </div>
-                <div class="col-3">
-                    <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/category-3.jpg">
-                </div>
-                </div>
-            </div>
-        </div>
-    <!------Featured Products------>
-    <div class="small-container">
-        <h2 class="title">Featured Products</h2>
-        <div class="row">
-            <div class="col-4">
-                <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/product-1.jpg">
-                <h4>Sofya Hand Bag</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>Rp.180.000,00</p>
-            </div>
-            <div class="col-4">
-                <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/product-2.jpg">
-                <h4>Vintage Bag Croco</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-                <p>Rp.135.000,00</p>
-            </div>
-            <div class="col-4">
-                <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/product-3.jpg">
-                <h4>Quinsha Long Wallet</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>Rp.110.000,00</p>
-            </div>
-            <div class="col-4">
-                <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/product-4.jpg">
-                <h4>Tissa Shoulder Bag</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>Rp.160.000,00</p>
-            </div>
-        </div>
-        <h2 class="title">Latest Products</h2>
-        <div class="row">
-            <div class="col-4">
-                <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/product-5.jpg">
-                <h4>Aveline Bag</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>Rp.140.000,00</p>
-            </div>
-            <div class="col-4">
-                <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/product-6.jpg">
-                <h4>Keisha Long Wallet</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-                <p>Rp.120.000,00</p>
-            </div>
-            <div class="col-4">
-                <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/product-7.jpg">
-                <h4>Sheryn Tote Bag</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>Rp.200.000,00</p>
-            </div>
-            <div class="col-4">
-                <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/product-8.jpg">
-                <h4>Bella Sling Bag</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-                <p>Rp.135.000,00</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-4">
-                <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/product-9.jpg">
-                <h4>Bianca Sling Bag</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>Rp.130.000,00</p>
-            </div>
-            <div class="col-4">
-                <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/product-10.jpg">
-                <h4>Shopie Vintage Bag</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-                <p>Rp.120.000,00</p>
-            </div>
-            <div class="col-4">
-                <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/product-11.jpg">
-                <h4>Scarlet Cart Holder</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>Rp.90.000,00</p>
-            </div>
-            <div class="col-4">
-                <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/product-12.jpg">
-                <h4>Janet Backpack</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>Rp.155.000,00</p>
-            </div>
+            </textarea>
+            <p>*Bidang wajib diisi.</p>
+            <!--Tambahkan tag <input>-->
+            <input class="contact-submit" type="submit" value="Kirim">
+            
         </div>
     </div>
-<!------offer------>
-    <div class="offer">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/exclusive.png" class="offer-img">
-                </div>
-                <div class="col-2">
-                    <p>Exclusively Available on RoyalBag.id</p>
-                    <h1>Kimi Vintage</h1>
-                    <small>This vintage Kimi is our product made from leather with 1 zipper measuring 27 x 12 x 17.5 cm in two colors, black and white.</small><br>
-                    <a href="" class="btn">Buy Now &#8594;</a>
-                </div>
-            </div>
-        </div>
-    </div>
-<!------testimonial------>
-    <div class="testimonial">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>RoyalBag.id products are very comfortable and very durable in terms of materials</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/user-1.jpeg">
-                    <h3>Paulina Margareta</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Products from RoyalBag.id are very good and vary from formal, informal bags, to wallets made of leather</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                    </div>
-                    <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/user-2.jpeg">
-                    <h3>Fadhila Intan</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Products from RoyalBag.id are very trendy, fashionable and suitable to be combined with various clothes</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                    </div>
-                    <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/user-3.jpeg">
-                    <h3>Ayu Rahma Safitri</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-<!------brands------>
-    <div class="brands">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-5">
-                    <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/Ikea.png">
-                </div>
-                <div class="col-5">
-                    <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/champion.png">
-                </div>
-                <div class="col-5">
-                    <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/Adidas.png">
-                </div>
-                <div class="col-5">
-                    <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/Disney.png">
-                </div>
-                <div class="col-5">
-                    <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/netflix.png">
-                </div>
-            </div>
-        </div>
-    </div>
-<!------footer------>
+    <!--footer-->
     <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col-1">
-                    <h3>Download Our App</h3>
-                    <p>Download App for Android and ios mobile phone</p>
-                    <div class="app-logo">
-                        <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/GooglePlay.png">
-                        <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/AppStore.png">
-                    </div>
-                </div>
-                <div class="footer-col-2">
-                    <img src="https://raw.githubusercontent.com/qhonitaguruhdwilestari19610096/qhonitaguruhdwilestari080699/main/logo.png">
-                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefit to Complete Fashion All Day in Formal or Informal Agenda</p>
-                </div>
-                <div class="footer-col-3">
-                    <h3>Useful Links</h3>
-                    <ul>
-                        <li>Coupons</li>
-                        <li>Blog Post</li>
-                        <li>Return Policy</li>
-                        <li>Join Affiliate</li>
-                    </ul>
-                </div>
-                <div class="footer-col-4">
-                    <h3>Follow us</h3>
-                    <ul>
-                        <a href="https://wa.me/6281330572431"><li>Whatsapp</li></a>
-                        <a href="https://x.facebook.com/qhonita.guruh.3"><li>Facebook</li></a>
-                        <a href="https://www.instagram.com/guruhqhonita/"><li>Instagram</li></a>
-                    </ul>
-                </div>
-            </div>
-            <hr>
-            <p class="copyright">Copyright 2021 - Easy Tutorials</p>
+        <div class="footer-logo">
+            Progate
+        </div>
+        <div class="footer-list">
+            <ul>
+                <li>Tentang</li>
+                <li>Karier</li>
+                <li>Hubungi Kami</li>
+            </ul>
         </div>
     </div>
-<!------js for toggle menu------>
-    <script>
-        var MenuItems = document.getElementById("MenuItems");
-
-        MenuItems.style.maxHeight = "0px";
-
-        function menutoggle(){
-            if(MenuItems.style.maxHeight == "0px")
-            {
-            MenuItems.style.maxHeight = "200px"
-            }
-            else
-            {
-            MenuItems.style.maxHeight = "0px"
-            }
-        }
-    </script>
-
 </body>
 </html>
